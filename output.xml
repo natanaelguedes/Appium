@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.8.2 on win32)" generated="20230924 20:44:15.340" rpa="false" schemaversion="4">
+<suite id="s1" name="TestCase &amp; Results &amp; TestCase">
+<suite id="s1-s1" name="TestCase" source="C:\Users\natan\Appium\TestCase.robot">
+<test id="s1-s1-t1" name="TEST" line="12">
+<kw name="Log" library="BuiltIn">
+<arg>This is a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:44:15.372" level="INFO">This is a sample test case</msg>
+<status status="PASS" starttime="20230924 20:44:15.372" endtime="20230924 20:44:15.372"/>
+</kw>
+<status status="PASS" starttime="20230924 20:44:15.372" endtime="20230924 20:44:15.373"/>
+</test>
+<doc>This is a test case</doc>
+<status status="PASS" starttime="20230924 20:44:15.355" endtime="20230924 20:44:15.374"/>
+</suite>
+<suite id="s1-s2" name="Results &amp; TestCase" source="c:">
+<suite id="s1-s2-s1" name="Results" source="c:results">
+<suite id="s1-s2-s1-s1" name="TestSuites" source="c:results\TestSuites.robot">
+<test id="s1-s2-s1-s1-t1" name="TEST" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>Este é o primeiro teste</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:44:15.386" level="INFO">Este é o primeiro teste</msg>
+<status status="PASS" starttime="20230924 20:44:15.386" endtime="20230924 20:44:15.386"/>
+</kw>
+<status status="PASS" starttime="20230924 20:44:15.385" endtime="20230924 20:44:15.387"/>
+</test>
+<test id="s1-s2-s1-s1-t2" name="TEST" line="8">
+<kw name="Log" library="BuiltIn">
+<arg>Este é o segundo teste</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:44:15.389" level="INFO">Este é o segundo teste</msg>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</kw>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</test>
+<test id="s1-s2-s1-s1-t3" name="TEST" line="11">
+<kw name="Log" library="BuiltIn">
+<arg>Este é o terceiro teste</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:44:15.389" level="INFO">Este é o terceiro teste</msg>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</kw>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</test>
+<status status="PASS" starttime="20230924 20:44:15.376" endtime="20230924 20:44:15.389"/>
+</suite>
+<status status="PASS" starttime="20230924 20:44:15.376" endtime="20230924 20:44:15.389"/>
+</suite>
+<suite id="s1-s2-s2" name="TestCase" source="c:TestCase.robot">
+<test id="s1-s2-s2-t1" name="TEST" line="12">
+<kw name="Log" library="BuiltIn">
+<arg>This is a sample test case</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:44:15.389" level="INFO">This is a sample test case</msg>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</kw>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</test>
+<doc>This is a test case</doc>
+<status status="PASS" starttime="20230924 20:44:15.389" endtime="20230924 20:44:15.389"/>
+</suite>
+<status status="PASS" starttime="20230924 20:44:15.376" endtime="20230924 20:44:15.389"/>
+</suite>
+<status status="PASS" starttime="20230924 20:44:15.340" endtime="20230924 20:44:15.402"/>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" skip="0" id="s1" name="TestCase &amp; Results &amp; TestCase">TestCase &amp; Results &amp; TestCase</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="TestCase">TestCase &amp; Results &amp; TestCase.TestCase</stat>
+<stat pass="4" fail="0" skip="0" id="s1-s2" name="Results &amp; TestCase">TestCase &amp; Results &amp; TestCase.Results &amp; TestCase</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s2-s1" name="Results">TestCase &amp; Results &amp; TestCase.Results &amp; TestCase.Results</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s2-s1-s1" name="TestSuites">TestCase &amp; Results &amp; TestCase.Results &amp; TestCase.Results.TestSuites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2-s2" name="TestCase">TestCase &amp; Results &amp; TestCase.Results &amp; TestCase.TestCase</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230924 20:44:15.388" level="WARN">Multiple tests with name 'TEST' executed in suite 'TestCase &amp; Results &amp; TestCase.Results &amp; TestCase.Results.TestSuites'.</msg>
+<msg timestamp="20230924 20:44:15.389" level="WARN">Multiple tests with name 'TEST' executed in suite 'TestCase &amp; Results &amp; TestCase.Results &amp; TestCase.Results.TestSuites'.</msg>
+</errors>
+</robot>

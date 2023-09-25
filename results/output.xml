@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.8.2 on win32)" generated="20230924 20:45:52.915" rpa="false" schemaversion="4">
+<suite id="s1" name="TestSuites" source="C:\Users\natan\Appium\results\TestSuites.robot">
+<test id="s1-t1" name="TEST" line="5">
+<kw name="Log" library="BuiltIn">
+<arg>Este é o primeiro teste</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:45:52.946" level="INFO">Este é o primeiro teste</msg>
+<status status="PASS" starttime="20230924 20:45:52.946" endtime="20230924 20:45:52.946"/>
+</kw>
+<status status="PASS" starttime="20230924 20:45:52.946" endtime="20230924 20:45:52.946"/>
+</test>
+<test id="s1-t2" name="TEST" line="8">
+<kw name="Log" library="BuiltIn">
+<arg>Este é o segundo teste</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:45:52.946" level="INFO">Este é o segundo teste</msg>
+<status status="PASS" starttime="20230924 20:45:52.946" endtime="20230924 20:45:52.946"/>
+</kw>
+<status status="PASS" starttime="20230924 20:45:52.946" endtime="20230924 20:45:52.946"/>
+</test>
+<test id="s1-t3" name="TEST" line="11">
+<kw name="Log" library="BuiltIn">
+<arg>Este é o terceiro teste</arg>
+<doc>Logs the given message with the given level.</doc>
+<msg timestamp="20230924 20:45:52.946" level="INFO">Este é o terceiro teste</msg>
+<status status="PASS" starttime="20230924 20:45:52.946" endtime="20230924 20:45:52.946"/>
+</kw>
+<status status="PASS" starttime="20230924 20:45:52.946" endtime="20230924 20:45:52.946"/>
+</test>
+<status status="PASS" starttime="20230924 20:45:52.930" endtime="20230924 20:45:52.946"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="TestSuites">TestSuites</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230924 20:45:52.946" level="WARN">Multiple tests with name 'TEST' executed in suite 'TestSuites'.</msg>
+<msg timestamp="20230924 20:45:52.946" level="WARN">Multiple tests with name 'TEST' executed in suite 'TestSuites'.</msg>
+</errors>
+</robot>
